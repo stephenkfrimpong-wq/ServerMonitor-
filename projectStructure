@@ -1,7 +1,0 @@
-servermonitor/
-├── backend/          # PHP backend API
-├── frontend/         # Dashboard UI
-├── config/           # Configuration files
-├── scripts/          # Monitoring scripts
-├── alerts/           # Alert handlers
-└── docs/             # Documentation
