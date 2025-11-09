@@ -54,6 +54,7 @@ Installation
     bash
 
 git clone https://github.com/stephenkfrimpong-wq/servermonitor.git
+
 cd servermonitor
 
 Install PHP dependencies
