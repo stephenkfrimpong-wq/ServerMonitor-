@@ -3,8 +3,11 @@
 A powerful, real-time server monitoring system built with vanilla PHP that provides beautiful insights into your system's performance with instant alerts and historical analytics.
 
 https://img.shields.io/badge/PHP-8.2%252B-777BB4?style=for-the-badge&logo=php&logoColor=white
+
 https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+
 https://img.shields.io/badge/WebSocket-Real--time-010101?style=for-the-badge&logo=websocket&logoColor=white
+
 🌟 Features
 📊 Real-time Monitoring
 
