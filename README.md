@@ -111,10 +111,12 @@ servermonitor/
 │   │   ├── WebSocket/        # Real-time communication
 │   │   └── Alerts/           # Alert management system
 │   └── server.php           # Main application entry point
+
 ├── frontend/
 │   ├── index.html           # Dashboard interface
 │   ├── dashboard.js         # Real-time chart updates
 │   └── styles.css           # Responsive styling
+
 ├── config/
 │   └── config.php           # Application configuration
 └── scripts/
