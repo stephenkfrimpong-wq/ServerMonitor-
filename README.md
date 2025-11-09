@@ -50,7 +50,7 @@ Installation
     Clone the repository
     bash
 
-git clone https://github.com/yourusername/servermonitor.git
+git clone https://github.com/stephenkfrimpong-wq/servermonitor.git
 cd servermonitor
 
 Install PHP dependencies
