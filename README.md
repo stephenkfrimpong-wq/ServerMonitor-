@@ -101,25 +101,37 @@ The ServerMonitor dashboard provides:
 
     Responsive Design: Optimized for both desktop and mobile viewing
 
-🏗️ Architecture
-text
+🏗️ Architecture text
 
 servermonitor/
+
 ├── backend/
+
 │   ├── src/
+
 │   │   ├── Monitor/          # Core monitoring logic
+
 │   │   ├── WebSocket/        # Real-time communication
+
 │   │   └── Alerts/           # Alert management system
+
 │   └── server.php           # Main application entry point
 
 ├── frontend/
+
 │   ├── index.html           # Dashboard interface
+
 │   ├── dashboard.js         # Real-time chart updates
+
 │   └── styles.css           # Responsive styling
 
+
 ├── config/
+
 │   └── config.php           # Application configuration
+
 └── scripts/
+
     └── install.sh           # Deployment scripts
 
 Core Components
