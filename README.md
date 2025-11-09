@@ -151,6 +151,7 @@ Edit config/config.php to match your environment:
 php
 
 return [
+
     'database' => [
         'host' => 'localhost',
         'dbname' => 'servermonitor',
@@ -169,6 +170,7 @@ Configure when alerts should trigger:
 php
 
 'alerts' => [
+
     'thresholds' => [
         'cpu' => 80,        // Alert when CPU > 80%
         'memory' => 85,     // Alert when Memory > 85%
@@ -182,6 +184,7 @@ Set up multiple alert destinations:
 php
 
 'email' => [
+
     'enabled' => true,
     'smtp_host' => 'smtp.gmail.com',
     'username' => 'your-email@gmail.com',
@@ -189,6 +192,7 @@ php
     'to' => 'admin@yourcompany.com'
 ],
 'slack' => [
+
     'enabled' => true,
     'webhook_url' => 'https://hooks.slack.com/services/...'
 ]
@@ -198,11 +202,15 @@ Add a New Server
 bash
 
 curl -X POST http://localhost:8081/api/servers \
+
   -H "Content-Type: application/json" \
+  
   -d '{
+  
     "name": "Production Web Server",
     "host": "192.168.1.100", 
     "type": "linux"
+  
   }'
 
 Get Server Metrics
@@ -235,13 +243,21 @@ if ($metrics['cpu_percent'] > 95) {
 
 📈 Supported Metrics
 Metric	Description	Collection Method
+
 CPU Usage	Percentage of CPU utilization	/proc/stat analysis
+
 Memory Usage	RAM consumption percentage	free command parsing
+
 Disk Usage	Storage capacity percentage	df command output
+
 Network I/O	Bytes in/out per interval	/proc/net/dev parsing
+
 Uptime	System running duration	/proc/uptime reading
+
 🛠️ Development
+
 Running Tests
+
 bash
 
 composer test
